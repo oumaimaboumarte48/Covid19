@@ -26,7 +26,8 @@ header{
     list-style: none;
     font-size: 25px;
     font-family:sans-serif;
-    width: 1900PX;
+    width: 1550px;
+    
     
 }
 
@@ -40,7 +41,7 @@ header{
 }
 
 .fa-nav li a.co-Acceil{
-    color: blue;
+    color:#046b93;
 }
 
 .fa-nav li i.fa-globe{
@@ -54,6 +55,7 @@ header{
     background-color: #FFC83D;
     z-index: 1;
     animation: slide 2s ease;
+    width: 1550px;
 }
 
 @keyframes slide{
@@ -67,11 +69,11 @@ header{
 
 .Sd h4{
     text-transform: uppercase;
-    color: #046b93;
+    color: black;
 }
 .Sd p{
     margin-top: 10px;
-    color: #1696ff;
+    color: #046b93;
     
 }
 
@@ -148,13 +150,42 @@ header{
 
 .genéral{
     text-align: center;
+    color: rgb(47, 117, 182);
     
 }
 .grid-container {
-    margin-top: 3em;
-   display: flex;
-   
+    display:block;
+    width:auto;
+    margin-left:auto;
+    margin-right:auto;
+    color:  black;    
+}
+.genéral2 {
+     color: black;
+     background-color: #227093;
+     width: 1535px;
+     height: 400px;
+     text-align: left;
+}
+.sym1 {
+    color:whitesmoke;
+}
+.sym2 {
+    text-align: left;
+    color: rgb(214, 177, 9);
+}
+.sym3 {
+    text-align: left;
+    color:#227093;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(211, 182, 18);
     
+}
+.sym4 {
+    text-align: left;
+    color: cornsilk;
+    text-decoration-line : underline;
 }
 
 
