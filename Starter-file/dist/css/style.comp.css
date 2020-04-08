@@ -1,3 +1,7 @@
+.body-2 {
+  background-color: #b7d7e8;
+  color: darkblue; }
+
 * {
   margin: 0;
   padding: 0;
@@ -194,36 +198,37 @@ header .header__content button:hover {
     width: 77px;
     height: 59px; }
 
-.ac-footer__imag {
+.ac-footerimag {
   text-align: center;
   background-color: white; }
 
-.ac-footer__list {
+.ac-footerlist {
   background-color: white;
   display: flex;
   justify-content: space-between;
   font-family: "Cairo", serif; }
-  .ac-footer__list .ac-footer__list__li {
+  .ac-footerlist .ac-footerlistli {
     font-size: 25px;
     line-height: 2.5; }
-    .ac-footer__list .ac-footer__list__li ul {
+    .ac-footerlist .ac-footerlistli ul {
       list-style-type: none; }
-      .ac-footer__list .ac-footer__list__li ul li a {
+      .ac-footerlist .ac-footerlistli ul li a {
         display: block;
         justify-content: space-between;
         text-decoration: none;
         margin-right: 60px;
         color: #1078AD;
         font-weight: 900; }
-  .ac-footer__list .ac-footer__list__conct {
+  .ac-footerlist .ac-footerlistconct {
     text-align: center;
     width: 100%;
-    line-height: 1.5; }
-    .ac-footer__list .ac-footer__list__conct .ac-footer__list__conct__hed2 {
+    line-height: 1.5;
+    margin: auto; }
+    .ac-footerlist .ac-footerlistconct .ac-footerlistconcthed2 {
       color: #1078AD; }
-    .ac-footer__list .ac-footer__list__conct .ac-footer__list__conct__num {
+    .ac-footerlist .ac-footerlistconct .ac-footerlistconctnum {
       color: #369D53; }
-  .ac-footer__list .ac-footer__list__algo {
+  .ac-footerlist .ac-footerlistalgo {
     width: 80%;
     margin: 70px;
     color: #7F7F7F; }
@@ -232,3 +237,20 @@ header .header__content button:hover {
   height: 30px;
   width: 100%;
   background-color: #1078AD; }
+
+.ac-footerlistli {
+  margin: auto;
+  margin-left: 40px; }
+
+.ac-footerlistliarab {
+  border: 1.2px solid #1A519E;
+  padding: -3px 10px 3px 8px;
+  border-radius: 10px;
+  font-size: 18px; }
+
+.ac-footerlistliarab img {
+  max-width: 19px;
+  min-height: 20px; }
+
+.fas .fa-globe {
+  float: left; }
